@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import MyComponent from './MyComponent';
+//import MyComponent from './MyComponent';
+//import Counter from './Counter';
+import Say from './say';
 
 class App extends Component {
   render() {
 
     return (
       <div >
-        <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent>
+        <Say/>
       </div>
     );
   }
