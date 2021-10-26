@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
-//import MyComponent from './MyComponent';
-//import Counter from './Counter';
-import Say from './say';
+import EventPractice from "./class eventhandle/EventPractice";
 
-class App extends Component {
-  render() {
-
-    return (
-      <div >
-        <Say/>
-      </div>
-    );
-  }
-}
+const App = () =>{
+  return <EventPractice/>
+};
 
 export default App;
